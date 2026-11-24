@@ -1,0 +1,45 @@
+MEGA BOOK COLLECTION — REVISION COMPLETA DE ENLACES PARA GITHUB PAGES
+Fecha: 24/11/2026
+Destino principal: https://lucyinlay.github.io/MegaBookCollection-Classic/
+
+REVISION DE DOMINIOS ANTERIORES
+- Archivos del paquete principal revisados: 664.
+- Paginas HTML de raiz examinadas: 13.
+- Ficheros de texto analizables: 130.
+- Archivos de la copia descargable examinados: 659.
+- Referencias pendientes a los cuatro dominios anteriores: 0.
+- Se buscaron variantes habituales con caracteres escapados, entidades HTML y URL encoding.
+- Las rutas de paginas existentes mantienen su nombre y las referencias externas (Zenodo, Telegram, etc.) no se han cambiado.
+
+CORRECCION ADICIONAL PARA GITHUB PAGES
+- El archivo MegaBookCollection-Website.zip ahora se incluye directamente en la raiz.
+  Es una copia descargable valida, reconstruida a partir de los fragmentos ya presentes.
+  Por tanto el boton Download website ZIP puede servir el archivo sin PHP.
+- Las 13 paginas tienen un comentario de version sin cambios visibles para generar
+  un nuevo commit y un despliegue actualizado en GitHub Pages.
+
+DESTINOS INTERNOS NO PRESENTES EN ESTE PAQUETE
+Los enlaces siguientes apuntan al dominio de GitHub Pages, pero sus archivos de
+contenido NO estan incluidos. Para darles contenido real, hay que aportar esos ficheros.
+  1X1/Modern_Times.html
+  1X1/Biblioteca_de_teologia_e_filosofia.html
+  1X1/Cantinho_do_professor.html
+  1X1/state_of_books.html
+  livresenfrancais.htm
+  Anothermassivepianosheetmusicsite.txt
+  клас.txt
+  А.Т.Фоменко.txt
+
+RECURSOS DE METADATOS SOCIALES NO PRESENTES
+- landimage.png
+- italibri2.png
+- descarga.png
+Las imagenes arriba se referencian en metadatos; no se han inventado ni sustituido.
+
+VERIFICACION DE LA WEB PUBLICADA
+No se ha podido acceder desde este entorno a la version HTTP publicada de GitHub Pages.
+Por eso los resultados anteriores son una auditoria del paquete descargable, no una
+confirmacion del estado de la CDN ni de todos los enlaces externos.
+Despues de Commit to main > Push origin, comprueba Actions > pages build and deployment,
+y abre la pagina con Ctrl+F5 o una ventana de incognito para descartar cache.
+En GitHub Desktop deben aparecer de nuevo cambios tras copiar el paquete actualizado.
