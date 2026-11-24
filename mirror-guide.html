@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- MBC: prevent the Word export from flashing before the modern layout is ready. -->
+<script id="mbc-prepaint">(function(){
+  var root=document.documentElement;
+  root.classList.add('mbc-initializing');
+  /* If a script is unavailable, expose the readable original page instead of staying blank. */
+  window.__mbcRevealFallback=window.setTimeout(function(){root.classList.remove('mbc-initializing');},12000);
+})();</script>
+<style id="mbc-prepaint-style">
+html.mbc-initializing body{background:#efe5d4!important;overflow:hidden!important;}
+html.mbc-initializing body > *{visibility:hidden!important;}
+html.mbc-initializing body::before{
+  content:"Mega Book Collection  -  Preparando colecciones...";
+  position:fixed;inset:0;z-index:2147483647;
+  display:flex;align-items:center;justify-content:center;text-align:center;
+  padding:25px;box-sizing:border-box;
+  background:linear-gradient(155deg,#fcf4e5,#efe5d4 55%,#e3d2b6);
+  color:#60432c;font:700 clamp(16px,2vw,23px)/1.4 Georgia,'Times New Roman',serif;
+  letter-spacing:.02em;
+}
+</style>
+<!-- Start downloading the design and scripts before parsing the large Word tables. -->
+<link rel="preload" href="mbc-modern.css" as="style">
+<link rel="preload" href="mbc-classic.css" as="style">
+<link rel="preload" href="mbc-modern.js" as="script">
+<link rel="preload" href="mbc-zenodo-search.js" as="script">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mirror Mega Book Collection | Independent Website Copy</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#080d17;color:#f1f6fc;font-family:Arial,Helvetica,sans-serif;line-height:1.65}header{padding:24px 20px;background:#102039;border-bottom:1px solid #315575}header div,main,footer{max-width:900px;margin:0 auto}header a{color:#92dafa;text-decoration:none;font-weight:bold}main{padding:34px 20px 50px}h1{font-size:clamp(27px,5vw,42px);line-height:1.2;margin:0 0 14px}h2{color:#81d6ff;margin-top:32px;font-size:22px}p,li{color:#d5e1ed}li{margin:9px 0}a{color:#80d8ff}a:hover{text-decoration:underline}.lead{font-size:18px}.download{display:inline-block;background:#0a8061;color:#fff;font-weight:bold;text-decoration:none;border-radius:9px;padding:15px 22px;margin:16px 0 4px}.download:hover{background:#0aa67c;text-decoration:none}.note{background:#16263b;border-left:4px solid #f2bc58;padding:15px 18px;border-radius:5px}code{color:#a6e5ff}footer{color:#b2c5d5;padding:0 20px 32px}ol{padding-left:27px}
+
+/* Optional AI customization panel; no changes to the site’s original tables. */
+.mbc-ai-panel{margin:34px 0 26px;padding:24px;border:1px solid #37617e;border-radius:16px;background:linear-gradient(135deg,#11253c 0%,#102b35 100%);box-shadow:0 12px 30px rgba(0,0,0,.20)}
+.mbc-ai-eyebrow{margin:0 0 5px!important;color:#76e4d6!important;font-size:12px;font-weight:800;letter-spacing:1.6px}
+.mbc-ai-panel h2{margin:0 0 10px;color:#f2f9ff;font-size:clamp(22px,4vw,29px)}
+.mbc-ai-panel p{margin:10px 0;color:#d5e5f1}
+.mbc-ai-steps{padding-left:22px;margin:14px 0 18px;color:#d5e5f1}
+.mbc-ai-steps li{padding-left:3px;margin:6px 0}
+.mbc-ai-label{display:block;margin:14px 0 8px;color:#b3e8f5;font-size:12px;font-weight:800;letter-spacing:.4px}
+.mbc-ai-prompt{display:block;width:100%;min-height:215px;resize:vertical;padding:15px;border-radius:10px;border:1px solid #497491;background:#071320;color:#e6f5ff;font:13px/1.6 Consolas,'Courier New',monospace;white-space:pre-wrap}
+.mbc-ai-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}
+.mbc-ai-copy,.mbc-ai-open{display:inline-flex;align-items:center;justify-content:center;min-height:43px;border-radius:9px;font:700 14px Arial,Helvetica,sans-serif;padding:11px 17px;cursor:pointer;text-decoration:none!important}
+.mbc-ai-copy{border:1px solid #1d98bc;background:#086f9f;color:white}
+.mbc-ai-copy:hover{background:#0d8dbb}
+.mbc-ai-open{border:1px solid #489182;background:#0b695a;color:white!important}
+.mbc-ai-open:hover{background:#138772}
+.mbc-ai-feedback{font-size:13px;color:#b9f8db;min-height:19px}
+.mbc-ai-footnote{font-size:12px;color:#aabfd1!important}
+@media(max-width:520px){.mbc-ai-panel{padding:18px 14px}.mbc-ai-actions>*{flex:1 1 100%}}
+</style>
+
+<!-- Mega Book Collection modern presentation layer, original tables and hyperlinks preserved -->
+<link rel="stylesheet" href="mbc-modern.css" type="text/css">
+<script charset="utf-8" defer src="mbc-modern.js"></script>
+<script defer src="mbc-zenodo-search.js"></script>
+<link rel="stylesheet" href="mbc-classic.css" type="text/css">
+</head>
+<body>
+<header><div><a href="index.htm" target="_self">&#8592; Mega Book Collection — Home</a></div></header>
+<main>
+<h1>CREATE YOUR OWN WEBSITE MIRROR</h1>
+<p class="lead">Help keep knowledge accessible. Download this website and publish your own independent copy, including the original pages, images and local resources.</p>
+<a class="download" href="MegaBookCollection-Website.zip" download="MegaBookCollection-Website.zip">&#8595; DOWNLOAD THE COMPLETE WEBSITE (ZIP)</a>
+<h2>Option A — Cloudflare Pages</h2>
+<ol>
+<li>Download the website ZIP above. It contains <code>index.html</code>, <code>index.htm</code>, the other HTML pages and their asset folders.</li>
+<li>Log in to <a href="https://dash.cloudflare.com/" target="_blank" rel="noopener noreferrer">Cloudflare</a>, open <strong>Workers &amp; Pages</strong>, and create or open a Pages project with <strong>Direct Upload</strong>.</li>
+<li>Upload the downloaded ZIP (or the extracted website folder), then deploy. Keep all the files at the site root, not inside an extra folder.</li>
+<li>Open the published homepage and test the mirror buttons, images and collection links.</li>
+</ol>
+<p><a href="https://developers.cloudflare.com/pages/get-started/direct-upload/" target="_blank" rel="noopener noreferrer">Official Cloudflare Pages guide</a></p>
+<h2>Option B — FreeWHA / traditional FTP hosting</h2>
+<ol>
+<li>Download the ZIP and <strong>extract it first</strong> on your computer.</li>
+<li>Connect to your hosting account using FileZilla or its web file manager.</li>
+<li>Upload all extracted files and folders <strong>into the public website root</strong>, preserving their names and relative paths. Do not upload only <code>index.htm</code>.</li>
+<li>Visit your domain. The <code>index.html</code> entry page opens <code>index.htm</code> automatically; both are included to accommodate different servers.</li>
+<li>Check <strong>GITHUB MIRROR</strong> and <strong>DOWNLOAD ZIP</strong>. The downloadable ZIP must remain in the same website root.</li>
+</ol>
+<p><a href="https://freewha.com/faq.html" target="_blank" rel="noopener noreferrer">FreeWHA FAQ</a></p>
+<h2>Option C — GitHub Pages</h2>
+<ol>
+<li>Download and extract the website ZIP.</li>
+<li>Sign in to <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>, create a new public repository and upload all extracted files to its root. You may use <a href="https://desktop.github.com/" target="_blank" rel="noopener noreferrer">GitHub Desktop</a> to manage the repository.</li>
+<li>In the repository, open <strong>Settings &rarr; Pages</strong>; select <strong>Deploy from a branch</strong>, the <code>main</code> branch and <code>/(root)</code>.</li>
+<li>Open your new GitHub Pages URL and verify that the site works.</li>
+</ol>
+<p><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site" target="_blank" rel="noopener noreferrer">Official GitHub Pages guide</a></p>
+<section class="mbc-ai-panel" aria-labelledby="mbc-ai-heading">
+<p class="mbc-ai-eyebrow">MAKE YOUR MIRROR YOUR OWN</p>
+<h2 id="mbc-ai-heading">CUSTOMIZE YOUR MIRROR WITH AI</h2>
+<p>Create a unique visual design for your own Mega Book Collection mirror with ChatGPT, while keeping the collections, tables, links, images and download buttons intact.</p>
+<ol class="mbc-ai-steps">
+<li><a href="MegaBookCollection-Website.zip" download>Download the complete website ZIP</a> from this page.</li>
+<li>Open ChatGPT and attach the ZIP file to your conversation.</li>
+<li>Copy the suggested request below, paste it into ChatGPT and ask for a redesigned, complete ZIP.</li>
+<li>Review the resulting pages and test the links before publishing your mirror.</li>
+</ol>
+<label class="mbc-ai-label" for="mbc-ai-prompt">SUGGESTED REQUEST TO COPY INTO CHATGPT</label>
+<textarea id="mbc-ai-prompt" class="mbc-ai-prompt" readonly spellcheck="false">Redesign the appearance of the attached Mega Book Collection website to make it modern, attractive, accessible and mobile-friendly.
+
+IMPORTANT: Preserve EVERY existing collection, table, row, column, cell, hyperlink (including href destinations), image, title, text, download button, file name and folder path. Do not remove, merge, reorder or alter the information in the original tables. Prefer a separate CSS layer to changing Word-generated HTML. Keep CLONE ONLINE, GITHUB MIRROR, DOWNLOAD ZIP and the mirror guide functional.
+
+Return a complete website ZIP that can be published on both Cloudflare Pages and FreeWHA. Include index.html, index.htm, all other pages and their asset folders. Provide an updated MegaBookCollection-Website.zip for the DOWNLOAD ZIP button (avoid nesting that ZIP inside itself). Compare hyperlink counts and table structures to the original and report anything you could not fully verify.</textarea>
+<div class="mbc-ai-actions">
+<button class="mbc-ai-copy" id="mbc-ai-copy" type="button">&#128203; Copy prompt</button>
+<a class="mbc-ai-open" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Open ChatGPT &#8599;</a>
+</div>
+<p id="mbc-ai-feedback" class="mbc-ai-feedback" role="status" aria-live="polite"></p>
+<p class="mbc-ai-footnote">AI may unintentionally change links or layout. Always inspect the returned ZIP before publishing. ChatGPT is an external service; attaching the ZIP shares those files with that service.</p>
+</section>
+<script>
+(function () {
+ 'use strict';
+ var button = document.getElementById('mbc-ai-copy');
+ var field = document.getElementById('mbc-ai-prompt');
+ var status = document.getElementById('mbc-ai-feedback');
+ if (!button || !field) return;
+ button.addEventListener('click', async function () {
+   var value = field.value;
+   var copied = false;
+   if (navigator.clipboard && navigator.clipboard.writeText) {
+     try { await navigator.clipboard.writeText(value); copied = true; } catch (err) {}
+   }
+   if (!copied) {
+     field.focus(); field.select();
+     try { copied = document.execCommand('copy'); } catch (err) {}
+   }
+   status.textContent = copied ? 'Prompt copied. Paste it into ChatGPT after uploading the ZIP.' : 'Please select the text above and copy it manually (Ctrl+C).';
+ });
+})();
+</script>
+
+<h2>Optional — Clone online</h2>
+<p>You can try a third-party web cloning service such as <a href="https://pixellize.io/website-clone" target="_blank" rel="noopener noreferrer">Pixellize</a>. This service can omit pages or linked files, may show advertisements and is not controlled by Mega Book Collection. <strong>Do not install unrelated browser extensions</strong> to copy the site. The ZIP above is the more reliable option.</p>
+<div class="note"><strong>Important:</strong> This download is a snapshot, not an automatic synchronization service. After the original site changes, its owner must publish an updated ZIP. External URLs (for example, links to GitHub, Internet Archive or Zenodo) remain external: their files are not included. The download ZIP itself is not nested inside the archive to prevent recursive ZIP files; visitors running their own mirror should place a freshly created ZIP under the same filename in the website root.</div>
+<h2>Mirror maintenance</h2>
+<p>When you update a mirror, upload the revised HTML and resource folders together. Keep the relative paths unchanged. You may publish your own updated ZIP named <code>MegaBookCollection-Website.zip</code> for visitors.</p>
+<p><a href="index.htm" target="_self">Return to Mega Book Collection</a></p>
+</main>
+<footer>Mega Book Collection · Independent mirroring information</footer>
+</body>
+</html>

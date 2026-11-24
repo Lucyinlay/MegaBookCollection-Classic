@@ -1,0 +1,259 @@
+/* Mega Book Collection: restored table headings and accessible columns, 2026-11-24. */
+:root { --mbc-grid-bg:#10243a; }
+#mbc-science-grid tr:first-child { display:table-row !important; }
+#mbc-project-grid tr:first-child { display:table-row !important; }
+#mbc-biblio-grid tr:first-child { display:table-row !important; }
+#mbc-travel-grid tr:first-child { display:table-row !important; }
+#mbc-emule-grid tr:first-child { display:table-row !important; }
+#mbc-torrent-grid tr:first-child { display:table-row !important; }
+#mbc-emule-grid tr:nth-child(2),#mbc-torrent-grid tr:nth-child(2) {display:none!important}
+/* Limit the very large widths written by Word, keeping every nonempty column. */
+#mbc-science-grid.mbc-library-table {width:100% !important; min-width:0 !important; max-width:100% !important; table-layout:fixed !important; margin:0 !important; }
+#mbc-science-grid.mbc-library-table > tbody > tr > td,
+#mbc-science-grid.mbc-library-table > tr > td,
+#mbc-science-grid.mbc-library-table td { min-width:0!important;max-width:none!important;box-sizing:border-box!important;padding-left:5px!important;padding-right:5px!important;vertical-align:middle!important; }
+#mbc-science-grid.mbc-library-table td p {margin:0!important;text-indent:0!important;overflow-wrap:anywhere;}
+#mbc-science-grid.mbc-library-table tr:first-child td {text-align:center!important;vertical-align:middle!important;padding:9px 4px!important;height:55px!important;}
+#mbc-science-grid.mbc-library-table tr:first-child td img {max-height:49px!important;max-width:66px!important;width:auto!important;height:auto!important;object-fit:contain!important;vertical-align:middle!important;}
+
+
+
+
+
+
+
+
+
+#mbc-project-grid.mbc-library-table {width:100% !important; min-width:0 !important; max-width:100% !important; table-layout:fixed !important; margin:0 !important; }
+#mbc-project-grid.mbc-library-table > tbody > tr > td,
+#mbc-project-grid.mbc-library-table > tr > td,
+#mbc-project-grid.mbc-library-table td { min-width:0!important;max-width:none!important;box-sizing:border-box!important;padding-left:5px!important;padding-right:5px!important;vertical-align:middle!important; }
+#mbc-project-grid.mbc-library-table td p {margin:0!important;text-indent:0!important;overflow-wrap:anywhere;}
+#mbc-project-grid.mbc-library-table tr:first-child td {text-align:center!important;vertical-align:middle!important;padding:9px 4px!important;height:55px!important;}
+#mbc-project-grid.mbc-library-table tr:first-child td img {max-height:49px!important;max-width:66px!important;width:auto!important;height:auto!important;object-fit:contain!important;vertical-align:middle!important;}
+
+
+
+
+
+
+
+
+
+#mbc-biblio-grid.mbc-library-table {width:100% !important; min-width:0 !important; max-width:100% !important; table-layout:fixed !important; margin:0 !important; }
+#mbc-biblio-grid.mbc-library-table > tbody > tr > td,
+#mbc-biblio-grid.mbc-library-table > tr > td,
+#mbc-biblio-grid.mbc-library-table td { min-width:0!important;max-width:none!important;box-sizing:border-box!important;padding-left:5px!important;padding-right:5px!important;vertical-align:middle!important; }
+#mbc-biblio-grid.mbc-library-table td p {margin:0!important;text-indent:0!important;overflow-wrap:anywhere;}
+#mbc-biblio-grid.mbc-library-table tr:first-child td {text-align:center!important;vertical-align:middle!important;padding:9px 4px!important;height:55px!important;}
+#mbc-biblio-grid.mbc-library-table tr:first-child td img {max-height:49px!important;max-width:66px!important;width:auto!important;height:auto!important;object-fit:contain!important;vertical-align:middle!important;}
+
+
+
+
+
+
+
+
+
+
+#mbc-travel-grid.mbc-library-table {width:100% !important; min-width:0 !important; max-width:100% !important; table-layout:fixed !important; margin:0 !important; }
+#mbc-travel-grid.mbc-library-table > tbody > tr > td,
+#mbc-travel-grid.mbc-library-table > tr > td,
+#mbc-travel-grid.mbc-library-table td { min-width:0!important;max-width:none!important;box-sizing:border-box!important;padding-left:5px!important;padding-right:5px!important;vertical-align:middle!important; }
+#mbc-travel-grid.mbc-library-table td p {margin:0!important;text-indent:0!important;overflow-wrap:anywhere;}
+#mbc-travel-grid.mbc-library-table tr:first-child td {text-align:center!important;vertical-align:middle!important;padding:9px 4px!important;height:55px!important;}
+#mbc-travel-grid.mbc-library-table tr:first-child td img {max-height:49px!important;max-width:66px!important;width:auto!important;height:auto!important;object-fit:contain!important;vertical-align:middle!important;}
+
+
+
+
+
+
+
+
+#mbc-italian-grid.mbc-library-table {width:100% !important; min-width:0 !important; max-width:100% !important; table-layout:fixed !important; margin:0 !important; }
+#mbc-italian-grid.mbc-library-table > tbody > tr > td,
+#mbc-italian-grid.mbc-library-table > tr > td,
+#mbc-italian-grid.mbc-library-table td { min-width:0!important;max-width:none!important;box-sizing:border-box!important;padding-left:5px!important;padding-right:5px!important;vertical-align:middle!important; }
+#mbc-italian-grid.mbc-library-table td p {margin:0!important;text-indent:0!important;overflow-wrap:anywhere;}
+#mbc-italian-grid.mbc-library-table tr:first-child td {text-align:center!important;vertical-align:middle!important;padding:9px 4px!important;height:55px!important;}
+#mbc-italian-grid.mbc-library-table tr:first-child td img {max-height:49px!important;max-width:66px!important;width:auto!important;height:auto!important;object-fit:contain!important;vertical-align:middle!important;}
+#mbc-italian-grid.mbc-library-table tr > td:nth-child(1) {width:5%!important;}
+#mbc-italian-grid.mbc-library-table tr > td:nth-child(2) {width:43%!important;}
+#mbc-italian-grid.mbc-library-table tr > td:nth-child(3) {width:19%!important;}
+#mbc-italian-grid.mbc-library-table tr > td:nth-child(4) {width:7%!important;}
+#mbc-italian-grid.mbc-library-table tr > td:nth-child(5) {width:16%!important;}
+#mbc-italian-grid.mbc-library-table tr > td:nth-child(6) {width:10%!important;}
+#mbc-portuguese-grid.mbc-library-table {width:100% !important; min-width:0 !important; max-width:100% !important; table-layout:fixed !important; margin:0 !important; }
+#mbc-portuguese-grid.mbc-library-table > tbody > tr > td,
+#mbc-portuguese-grid.mbc-library-table > tr > td,
+#mbc-portuguese-grid.mbc-library-table td { min-width:0!important;max-width:none!important;box-sizing:border-box!important;padding-left:5px!important;padding-right:5px!important;vertical-align:middle!important; }
+#mbc-portuguese-grid.mbc-library-table td p {margin:0!important;text-indent:0!important;overflow-wrap:anywhere;}
+#mbc-portuguese-grid.mbc-library-table tr:first-child td {text-align:center!important;vertical-align:middle!important;padding:9px 4px!important;height:55px!important;}
+#mbc-portuguese-grid.mbc-library-table tr:first-child td img {max-height:49px!important;max-width:66px!important;width:auto!important;height:auto!important;object-fit:contain!important;vertical-align:middle!important;}
+
+
+
+
+
+
+
+
+
+
+#mbc-librusec-grid.mbc-library-table {width:100% !important; min-width:0 !important; max-width:100% !important; table-layout:fixed !important; margin:0 !important; }
+#mbc-librusec-grid.mbc-library-table > tbody > tr > td,
+#mbc-librusec-grid.mbc-library-table > tr > td,
+#mbc-librusec-grid.mbc-library-table td { min-width:0!important;max-width:none!important;box-sizing:border-box!important;padding-left:5px!important;padding-right:5px!important;vertical-align:middle!important; }
+#mbc-librusec-grid.mbc-library-table td p {margin:0!important;text-indent:0!important;overflow-wrap:anywhere;}
+#mbc-librusec-grid.mbc-library-table tr:first-child td {text-align:center!important;vertical-align:middle!important;padding:9px 4px!important;height:55px!important;}
+#mbc-librusec-grid.mbc-library-table tr:first-child td img {max-height:49px!important;max-width:66px!important;width:auto!important;height:auto!important;object-fit:contain!important;vertical-align:middle!important;}
+
+
+
+
+
+
+
+
+
+#mbc-emule-grid.mbc-library-table {width:100% !important; min-width:0 !important; max-width:100% !important; table-layout:fixed !important; margin:0 !important; }
+#mbc-emule-grid.mbc-library-table > tbody > tr > td,
+#mbc-emule-grid.mbc-library-table > tr > td,
+#mbc-emule-grid.mbc-library-table td { min-width:0!important;max-width:none!important;box-sizing:border-box!important;padding-left:5px!important;padding-right:5px!important;vertical-align:middle!important; }
+#mbc-emule-grid.mbc-library-table td p {margin:0!important;text-indent:0!important;overflow-wrap:anywhere;}
+#mbc-emule-grid.mbc-library-table tr:first-child td {text-align:center!important;vertical-align:middle!important;padding:9px 4px!important;height:55px!important;}
+#mbc-emule-grid.mbc-library-table tr:first-child td img {max-height:49px!important;max-width:66px!important;width:auto!important;height:auto!important;object-fit:contain!important;vertical-align:middle!important;}
+#mbc-emule-grid.mbc-library-table tr > td:nth-child(6) {display:none!important;}
+#mbc-emule-grid.mbc-library-table tr > td:nth-child(1) {width:6%!important;}
+#mbc-emule-grid.mbc-library-table tr > td:nth-child(2) {width:46%!important;}
+#mbc-emule-grid.mbc-library-table tr > td:nth-child(3) {width:16%!important;}
+#mbc-emule-grid.mbc-library-table tr > td:nth-child(4) {width:16%!important;}
+#mbc-emule-grid.mbc-library-table tr > td:nth-child(5) {width:16%!important;}
+#mbc-torrent-grid.mbc-library-table {width:100% !important; min-width:0 !important; max-width:100% !important; table-layout:fixed !important; margin:0 !important; }
+#mbc-torrent-grid.mbc-library-table > tbody > tr > td,
+#mbc-torrent-grid.mbc-library-table > tr > td,
+#mbc-torrent-grid.mbc-library-table td { min-width:0!important;max-width:none!important;box-sizing:border-box!important;padding-left:5px!important;padding-right:5px!important;vertical-align:middle!important; }
+#mbc-torrent-grid.mbc-library-table td p {margin:0!important;text-indent:0!important;overflow-wrap:anywhere;}
+#mbc-torrent-grid.mbc-library-table tr:first-child td {text-align:center!important;vertical-align:middle!important;padding:9px 4px!important;height:55px!important;}
+#mbc-torrent-grid.mbc-library-table tr:first-child td img {max-height:49px!important;max-width:66px!important;width:auto!important;height:auto!important;object-fit:contain!important;vertical-align:middle!important;}
+#mbc-torrent-grid.mbc-library-table tr > td:nth-child(6) {display:none!important;}
+#mbc-torrent-grid.mbc-library-table tr > td:nth-child(1) {width:6%!important;}
+#mbc-torrent-grid.mbc-library-table tr > td:nth-child(2) {width:46%!important;}
+#mbc-torrent-grid.mbc-library-table tr > td:nth-child(3) {width:16%!important;}
+#mbc-torrent-grid.mbc-library-table tr > td:nth-child(4) {width:16%!important;}
+#mbc-torrent-grid.mbc-library-table tr > td:nth-child(5) {width:16%!important;}
+
+/* Remove visually the black photographic background from legacy icon images.
+   The original image files and all surrounding anchor elements are unchanged. */
+.mbc-library-table tr:first-child img.mbc-icon-no-black {
+  mix-blend-mode:screen!important;
+  background:transparent!important;
+}
+/* Preserve readable names and actions without covering adjacent columns. */
+.mbc-library-table td.mbc-collection-title { overflow-wrap:anywhere!important; }
+.mbc-library-table .mbc-action {max-width:100%!important;text-align:center!important;}
+@media(max-width:880px){
+  #mbc-science-grid,#mbc-project-grid,#mbc-biblio-grid,#mbc-travel-grid,#mbc-italian-grid,
+  #mbc-portuguese-grid,#mbc-librusec-grid,#mbc-emule-grid,#mbc-torrent-grid {
+    min-width:940px!important;
+  }
+}
+
+
+/* Centrado de las celdas de acciones bajo sus respectivos encabezados.
+   Las columnas de nombres y los enlaces quedan intactos. */
+.mbc-library-table tr:not(:first-child) > td:nth-child(n+3) {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+.mbc-library-table tr:not(:first-child) > td:nth-child(n+3) > p,
+.mbc-library-table tr:not(:first-child) > td:nth-child(n+3) > div,
+.mbc-library-table tr:not(:first-child) > td:nth-child(n+3) > pre {
+  text-align: center !important;
+  text-indent: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.mbc-library-table tr:not(:first-child) > td:nth-child(n+3) span[style*="mso-spacerun"] {
+  display: none !important;
+}
+/* Acciones enlazadas centradas, incluidas las LISTA de la tabla italiana. */
+.mbc-library-table tr:not(:first-child) > td:nth-child(n+3) a.mbc-action {
+  vertical-align: middle !important;
+}
+
+/* 2026-11-24 readability patch for classic FreeWHA build */
+.mbc-library-table tr:first-child td img {
+  filter: saturate(1.18) contrast(1.12) brightness(1.04) !important;
+}
+.mbc-library-table tr:first-child img.mbc-icon-no-black {
+  mix-blend-mode: normal !important;
+  background: transparent !important;
+}
+
+
+/* Classic visibility improvements: only two GitHub heading images. */
+#mbc-emule-grid.mbc-library-table tr:first-child td:nth-child(3) img,
+#mbc-torrent-grid.mbc-library-table tr:first-child td:nth-child(3) img {
+  filter: grayscale(1) brightness(.70) contrast(3.1) !important;
+  background: #fff !important;
+  mix-blend-mode: normal !important;
+  max-width: 84px !important;
+  max-height: 62px !important;
+}
+
+/* Columns of uTorrent + adjacent GH physically removed. Keep original columns aligned. */
+#mbc-science-grid.mbc-library-table tr > td:nth-child(1) { display:none!important; }
+#mbc-science-grid.mbc-library-table tr > td:nth-child(2) { width:55%!important; }
+#mbc-science-grid.mbc-library-table tr > td:nth-child(3) { width:12%!important; }
+#mbc-science-grid.mbc-library-table tr > td:nth-child(4) { width:6%!important; }
+#mbc-science-grid.mbc-library-table tr > td:nth-child(5) { width:9%!important; }
+#mbc-science-grid.mbc-library-table tr > td:nth-child(6) { width:8%!important; }
+#mbc-science-grid.mbc-library-table tr > td:nth-child(7) { width:10%!important; }
+#mbc-project-grid.mbc-library-table tr > td:nth-child(1) { display:none!important; }
+#mbc-project-grid.mbc-library-table tr > td:nth-child(2) { width:56%!important; }
+#mbc-project-grid.mbc-library-table tr > td:nth-child(3) { width:12%!important; }
+#mbc-project-grid.mbc-library-table tr > td:nth-child(4) { width:6%!important; }
+#mbc-project-grid.mbc-library-table tr > td:nth-child(5) { width:8%!important; }
+#mbc-project-grid.mbc-library-table tr > td:nth-child(6) { width:8%!important; }
+#mbc-project-grid.mbc-library-table tr > td:nth-child(7) { width:10%!important; }
+#mbc-biblio-grid.mbc-library-table tr > td:nth-child(1) { width:46%!important; }
+#mbc-biblio-grid.mbc-library-table tr > td:nth-child(2) { display:none!important; }
+#mbc-biblio-grid.mbc-library-table tr > td:nth-child(3) { width:10%!important; }
+#mbc-biblio-grid.mbc-library-table tr > td:nth-child(4) { width:5%!important; }
+#mbc-biblio-grid.mbc-library-table tr > td:nth-child(5) { width:11%!important; }
+#mbc-biblio-grid.mbc-library-table tr > td:nth-child(6) { width:8%!important; }
+#mbc-biblio-grid.mbc-library-table tr > td:nth-child(7) { width:9%!important; }
+#mbc-biblio-grid.mbc-library-table tr > td:nth-child(8) { width:11%!important; }
+#mbc-travel-grid.mbc-library-table tr > td:nth-child(1) { display:none!important; }
+#mbc-travel-grid.mbc-library-table tr > td:nth-child(2) { width:65%!important; }
+#mbc-travel-grid.mbc-library-table tr > td:nth-child(3) { display:none!important; }
+#mbc-travel-grid.mbc-library-table tr > td:nth-child(4) { width:15%!important; }
+#mbc-travel-grid.mbc-library-table tr > td:nth-child(5) { width:7%!important; }
+#mbc-travel-grid.mbc-library-table tr > td:nth-child(6) { width:13%!important; }
+#mbc-portuguese-grid.mbc-library-table tr > td:nth-child(1) { width:5%!important; }
+#mbc-portuguese-grid.mbc-library-table tr > td:nth-child(2) { width:49%!important; }
+#mbc-portuguese-grid.mbc-library-table tr > td:nth-child(3) { width:9%!important; }
+#mbc-portuguese-grid.mbc-library-table tr > td:nth-child(4) { width:5%!important; }
+#mbc-portuguese-grid.mbc-library-table tr > td:nth-child(5) { width:10%!important; }
+#mbc-portuguese-grid.mbc-library-table tr > td:nth-child(6) { width:7%!important; }
+#mbc-portuguese-grid.mbc-library-table tr > td:nth-child(7) { width:7%!important; }
+#mbc-portuguese-grid.mbc-library-table tr > td:nth-child(8) { width:8%!important; }
+#mbc-librusec-grid.mbc-library-table tr > td:nth-child(1) { width:56%!important; }
+#mbc-librusec-grid.mbc-library-table tr > td:nth-child(2) { display:none!important; }
+#mbc-librusec-grid.mbc-library-table tr > td:nth-child(3) { width:12%!important; }
+#mbc-librusec-grid.mbc-library-table tr > td:nth-child(4) { width:6%!important; }
+#mbc-librusec-grid.mbc-library-table tr > td:nth-child(5) { width:8%!important; }
+#mbc-librusec-grid.mbc-library-table tr > td:nth-child(6) { width:9%!important; }
+#mbc-librusec-grid.mbc-library-table tr > td:nth-child(7) { width:9%!important; }
+
+/* Telegram JOIN: after removing Torrent and its GH companion,
+   align all rows, including the groups that used Word merged cells. */
+.mbc-library-table td.mbc-telegram-column,
+.mbc-library-table td.mbc-telegram-column > p {
+ text-align:center !important; text-indent:0 !important;
+ margin-left:auto !important; margin-right:auto !important;
+ vertical-align:middle !important;
+}

@@ -1,0 +1,30 @@
+MEGA BOOK COLLECTION - EDICION CLASICA - FREEWHA
+==================================================
+
+PUBLICACION
+1. Descomprime el archivo ZIP principal en una carpeta de tu ordenador.
+2. Con FileZilla sube TODO su contenido a la raiz publica de tu cuenta FreeWHA.
+3. Mantén las subcarpetas (index_archivos, mbc_txt_index_data,
+   site-download-parts, etc.) y el archivo oculto .htaccess.
+4. NO subas el ZIP principal sin descomprimir, y no borres las carpetas del indice.
+5. Abre https://collectionstore.eu5.org/ y comprueba la portada y el buscador.
+
+DESCARGA COMPLETA PARA LOS VISITANTES
+La URL MegaBookCollection-Website.zip se conserva exactamente como antes.
+FreeWHA limita cada archivo individual a 12 MB por FTP, por lo que el ZIP
+se aloja en fragmentos menores de 7 MB dentro de site-download-parts/.
+El archivo .htaccess envia la peticion del ZIP a download-site.php,
+que reconstruye la descarga sin cargar los fragmentos enteros en memoria.
+Para comprobar el servidor tambien puedes visitar download-site.php.
+
+PARA GENERAR NUEVAMENTE LOS FRAGMENTOS EN UN ESPEJO
+Si editas tu propia copia, ejecuta PREPARAR_DESCARGA_FREEWHA.bat
+(necesita Python 3.7 o posterior) y vuelve a subir site-download-parts/.
+
+BUCADOR ZENODO
+El buscador usa los 53 JSON ya incluidos; NO necesitas subir los 342 TXT
+originales de Zenodo por separado. Los archivos de búsqueda son estáticos.
+
+IMPORTANTE
+Las páginas web y los enlaces de esta edición están dirigidos a
+https://collectionstore.eu5.org/; prueba la web después de publicarla.

@@ -1,0 +1,21 @@
+BUSCADOR DE MEGA BOOK COLLECTION - FREEWHA
+
+SI ABRES LOS ARCHIVOS HTML CON DOBLE CLIC (file://):
+El navegador bloquea por seguridad la lectura de los 53 JSON del indice.
+Eso no significa que el indice este roto.
+
+PARA PROBAR EN WINDOWS:
+1) Haz doble clic en PROBAR_BUSCADOR_EN_LOCAL.bat.
+2) Deja abierta la ventana que inicia Python.
+3) Usa el buscador en http://127.0.0.1:8765/
+4) Para detenerlo, cierra la ventana del servidor.
+
+PARA PUBLICAR:
+Sube TODO el contenido de este ZIP descomprimido a FreeWHA (incluidas las
+carpetas mbc_txt_index_data y site-download-parts, mas .htaccess).
+Luego abre https://collectionstore.eu5.org/ y prueba Search TXT.
+Si devuelve un error tras publicar, comprueba que exista:
+https://collectionstore.eu5.org/zenodo-txt-index-manifest.json
+
+No ejecutes ACTUALIZAR_INDICE_TXT.bat solo para probar el buscador.
+El indice existente ya contiene 342 fuentes, distribuidas en 53 partes.

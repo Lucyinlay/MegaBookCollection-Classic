@@ -1,0 +1,6 @@
+TXT catalog entries: 342
+TXT downloaded: 342
+TXT unavailable/skipped: 0
+Lines indexed: 1370630
+Index chunks: 53
+

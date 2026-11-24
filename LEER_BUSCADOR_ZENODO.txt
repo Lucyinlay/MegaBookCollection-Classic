@@ -1,0 +1,46 @@
+MEGA BOOK COLLECTION - SEARCH INSIDE TXT LISTS ON ZENODO
+=======================================================
+
+The website has two separate searches:
+- Filter collection names: searches names visible in HTML tables.
+- Search inside Zenodo TXT lists: searches the contents of linked TXT files.
+
+HOW IT WORKS
+The site includes a catalog of 342 Zenodo TXT links, each associated with
+its corresponding collection. There are 9 truncated Zenodo URLs in the
+original Word HTML and 8 links to other servers, not included in this catalog.
+No third-party TXT contents are packaged in this initial ZIP.
+
+WITHOUT A LOCAL INDEX
+The website tries Zenodo's public file API from the visitor's browser.
+This is not guaranteed: some files may be unavailable, too large, blocked by
+cross-origin restrictions (CORS), or respond too slowly. A report says how
+many files were checked successfully. Never treat partial results as complete.
+
+RECOMMENDED: GENERATE A LOCAL INDEX (WINDOWS)
+1. Install Python 3 (3.8 or newer) if necessary.
+2. Extract the whole website ZIP to a folder.
+3. Double-click ACTUALIZAR_INDICE_TXT.bat while connected to the Internet.
+4. The script downloads the actual TXT contents from Zenodo, using cached
+   copies on later runs. It creates an indexed search database split across
+   small JSON files inside mbc_txt_index_data.
+5. Review INFORME_BUSQUEDA_TXT.txt for any skipped/unavailable TXT files.
+6. Use the generated MegaBookCollection_TXT_BUSCADOR_LISTO_PARA_PUBLICAR.zip
+   from the parent folder. This ZIP includes an updated downloadable website.
+7. Upload the ZIP directly to Cloudflare Pages, or extract and upload the
+   complete contents using FTP to FreeWHA.
+
+All searches then run against the index hosted on your website (both hosting
+services are supported, no PHP or external search service necessary).
+If you add links to new TXT files in the Word document, the catalog needs to
+be regenerated first. Ask ChatGPT to regenerate zenodo-txt-catalog.json from
+the updated HTML or use the existing version for the current list.
+
+TECHNICAL NOTES
+- No HTML table, links or collection content is changed by the search UI.
+- A match present in multiple TXT files appears under each collection.
+- External source files are only indexed when they could be downloaded.
+- The live fallback requires HTTP or HTTPS; opening index.htm by double-click
+  from file:// in a browser is not equivalent to hosting the site.
+- Use only TXT files that you are authorized to index and redistribute.
+TXT search UI and index have no affiliation with Zenodo.
