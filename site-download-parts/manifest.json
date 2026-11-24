@@ -1,7 +1,7 @@
 {
   "archive": "MegaBookCollection-Website.zip",
-  "size": 23556735,
-  "sha256": "19822dc1774a9debc52fb23de988f3ac40e879724c287ab18adc3cba7350422d",
+  "size": 23557188,
+  "sha256": "232537a0a74455b30448eba63bf11ad073116eb46404f3df60cce86699b8a019",
   "parts": [
     {
       "name": "MegaBookCollection-Website.zip.part001",
@@ -17,7 +17,7 @@
     },
     {
       "name": "MegaBookCollection-Website.zip.part004",
-      "bytes": 2556735
+      "bytes": 2557188
     }
   ]
 }

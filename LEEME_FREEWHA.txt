@@ -7,7 +7,7 @@ PUBLICACION
 3. Mantén las subcarpetas (index_archivos, mbc_txt_index_data,
    site-download-parts, etc.) y el archivo oculto .htaccess.
 4. NO subas el ZIP principal sin descomprimir, y no borres las carpetas del indice.
-5. Abre https://collectionstore.eu5.org/ y comprueba la portada y el buscador.
+5. Abre https://lucyinlay.github.io/MegaBookCollection-Classic/ y comprueba la portada y el buscador.
 
 DESCARGA COMPLETA PARA LOS VISITANTES
 La URL MegaBookCollection-Website.zip se conserva exactamente como antes.
@@ -27,4 +27,4 @@ originales de Zenodo por separado. Los archivos de búsqueda son estáticos.
 
 IMPORTANTE
 Las páginas web y los enlaces de esta edición están dirigidos a
-https://collectionstore.eu5.org/; prueba la web después de publicarla.
+https://lucyinlay.github.io/MegaBookCollection-Classic/; prueba la web después de publicarla.

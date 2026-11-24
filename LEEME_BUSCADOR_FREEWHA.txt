@@ -13,9 +13,9 @@ PARA PROBAR EN WINDOWS:
 PARA PUBLICAR:
 Sube TODO el contenido de este ZIP descomprimido a FreeWHA (incluidas las
 carpetas mbc_txt_index_data y site-download-parts, mas .htaccess).
-Luego abre https://collectionstore.eu5.org/ y prueba Search TXT.
+Luego abre https://lucyinlay.github.io/MegaBookCollection-Classic/ y prueba Search TXT.
 Si devuelve un error tras publicar, comprueba que exista:
-https://collectionstore.eu5.org/zenodo-txt-index-manifest.json
+https://lucyinlay.github.io/MegaBookCollection-Classic/zenodo-txt-index-manifest.json
 
 No ejecutes ACTUALIZAR_INDICE_TXT.bat solo para probar el buscador.
 El indice existente ya contiene 342 fuentes, distribuidas en 53 partes.
